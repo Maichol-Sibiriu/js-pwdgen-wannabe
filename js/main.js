@@ -16,6 +16,12 @@ console.log(colore);
 var numero = prompt("qual'e' il tuo numero preferito?");
 console.log(numero);
 
+// costruzione esercizio
+var title = nome + cognome + colore + numero;
+console.log("title");
+
+document.getElementById('title').innerHTML = title;
+
 // text da js
 console.log(nome + cognome + colore + numero);
 
